@@ -13,7 +13,7 @@
       ...
     }:
     {
-      nixosModules.default = import ./module.nix;
+      wwwContent = ./www;
     }
     // flake-utils.lib.eachDefaultSystemPassThrough (
       system:
